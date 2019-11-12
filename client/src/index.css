@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#people-list h1 {
+  text-align: left;
+  text-transform: uppercase;
+  color: #3aa4ff;
+}
+
+#people-list {
+  padding: 30px;
+}
+
+#people-list ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.25rem;
+}
+
+#people-list ul li {
+  color: #bbbbbb;
+  padding: 0.5rem 0;
+}
+
+#people-list ul li:hover {
+  color: #000;
+}
+
+#people-list ul li+li {
+  margin-top: 0.25rem;
+}
+
+#person-info h2 {
+  color: #868686;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+#add-person {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  max-width: 450px;
+}
+
+#add-person input {
+  padding: 8px;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid #e3e3e3;
+  margin: 6px 0;
+}
+
+#add-person button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3aa4ff;
+  text-transform: uppercase;
+  color: #fff;;
+}
+
+#add-person button:hover {
+  background: #207ac7
+}
